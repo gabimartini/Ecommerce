@@ -1,0 +1,22 @@
+.LoginMain{
+text-align: center;
+color: #b6b2b3;
+width: 50%;
+margin:5% 25%
+}
+
+.Login{
+    text-align: center;
+}
+
+.Login a{
+    color: #b6b2b3
+}
+
+.Login a:hover{
+    color: #424141d7;
+}
+
+.WrongData{
+    color: red
+}

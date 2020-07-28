@@ -1,0 +1,22 @@
+.ButtonMain{
+    border: 2px solid #b6b2b3;
+    background-color: #b6b2b3;
+    width: 5.5em;
+    height: 2.5em;
+    border-radius: 10px;
+    color: #3b3b3b;
+    font-weight: 700;
+    cursor: pointer;
+    
+   
+}
+
+#btn{
+    font-size: 1.8vw;
+}
+
+ @media (min-width: 500px){
+    #btn{
+        font-size: 1.1vw;
+    }
+} 

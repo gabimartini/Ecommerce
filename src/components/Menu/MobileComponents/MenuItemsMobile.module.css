@@ -1,0 +1,20 @@
+.ItemMobile {
+    height: 100%;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+    font-size: 0.9em;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    color: #b6b2b3;
+    font-weight: 600;
+    cursor: pointer;
+     }
+  
+ 
+    .ItemMobile a {
+  text-decoration: none;
+  color: #b6b2b3;
+  
+    }

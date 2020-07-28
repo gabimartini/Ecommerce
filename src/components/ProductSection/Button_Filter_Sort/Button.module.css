@@ -1,0 +1,77 @@
+/*pra arrumar a altura do botão sort e filter com o título da página*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+
+.Button{
+    display: grid;
+    grid-template-columns:  10% 6% 20% 33% 20.5% 6% 4.5%; 
+    width: 95%;
+}
+
+
+.Filterbtn{
+grid-column-start: 2;
+grid-column-end: 3;
+
+}
+
+.FilterOptions{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1rem;
+    
+    }
+
+
+    .itemsFilter{
+ 
+      text-align: center;
+      font-family: 'EB Garamond', serif;
+      font-size: 1em;
+      color: #b6b2b3;
+      padding: 0.5rem 0;
+ 
+      
+    }
+
+
+.Sortbtn{
+    grid-column-start: 6;
+    grid-column-end: 7;
+
+}
+
+ .RefineOptions li{
+   list-style: none;
+   cursor: pointer;
+    width: auto;
+   height: 3rem;
+   margin-left: -2rem;
+
+ 
+ 
+ }
+
+ .RefineOptions button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  font-family: 'EB Garamond', serif;
+  font-size: 1em;
+  color: #b6b2b3;
+  padding: 1rem;
+  transform: rotateY(-180deg);
+
+
+ }
+
+ .ModalSort{
+   transform: rotateY(180deg);
+ }
+
+
+
+

@@ -1,0 +1,128 @@
+.Toolbar {
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+ display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  box-shadow:10px 3px 5px 0px rgba(243, 241, 241, 0.75);
+  background-color: white;
+z-index: 90;
+
+}
+
+.Main_Menu{
+  width: 15vw;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.Main_Menu ul{
+  margin: 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin-left: 0;
+  align-items: center;
+  height: 100%;
+  }
+
+
+
+.Home{
+  color: #b6b2b3;
+  font-weight: 600;
+  font-size: calc(5px + 1vmin);
+  padding: 18px 10px;
+  box-sizing: border-box;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.Home:hover,
+.Basket:hover {color: #424141d7;;
+text-decoration: none;}
+
+
+.Basket{
+  /* font-size: calc(5px + 1vmin); */
+  box-sizing: border-box;
+  color: #b6b2b3;
+  font-size: larger;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 14px 15px;
+}
+
+.Orders{
+  color: #b6b2b3;
+  font-weight: 600;
+  font-size: calc(5px + 1vmin);
+  padding: 25px 15px;
+  box-sizing: border-box;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (max-width: 499px) {
+  #DesktopOnly {
+      display: none;
+  }
+}
+
+.Utility{
+
+   /* width: 15vw; */
+  margin-top: 0; 
+  display: flex;
+  flex-direction: row;
+  padding: 5;
+}
+
+.MenuLink{
+padding: 16px 15px;
+}
+
+#icon{
+  color: #b6b2b3;
+  font-size: larger;
+  margin-top: 0.5vw;
+  /* padding: 18px 10px; */
+}
+
+.SignOut{
+  font-size: calc(5px + 1vmin);
+  margin-bottom: 0;
+  color: #b6b2b3;
+}
+
+.SignOut a{
+  color: #b6b2b3;
+  text-decoration: underline;
+
+}
+
+#icon:hover,
+.Orders:hover,
+.SignOut a:hover{
+  color: #424141d7;
+  text-decoration: none;
+
+}
+
+
+
+
+
+

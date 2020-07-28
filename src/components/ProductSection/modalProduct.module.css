@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+.ModalProduct{
+    background-color: white;
+    border: 1px solid white;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    width: 100%;     
+
+}
+
+.ModalMapData{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 5rem;
+    
+}
+
+.NameModal{
+text-align: center;
+font-size: 5.3vw;
+color: #969394;
+font-family: 'EB Garamond', serif;
+}
+
+.ImageModal{
+    box-sizing: border-box;
+    width: 90%;
+    height: auto;
+     margin-left: 4.7vw;   
+}
+
+.btndiv{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 1vw;
+}
+
+.PriceModal{
+    font-size: calc(8px + 2vmin);
+    color: #b6b2b3;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+.DescripModal{
+    font-size: calc(8px + 2vmin);
+    color: #b6b2b3;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+
+
+.SizeModal{
+    border-top: 1.5px solid #b6b2b3;
+    border-bottom: 1.5px solid #b6b2b3;
+    font-size: calc(8px + 2vmin);
+    color: #b6b2b3;
+    font-family: 'EB Garamond', serif;
+    align-self: center;
+    padding: 0.7vw;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+
+.SizeModalbtn button {
+    color: #b6b2b3;
+    font-family: 'EB Garamond', serif;
+    background-color: white;
+    border: 1px solid #b6b2b3;
+    cursor: pointer;
+    margin-left: 0.25rem;
+    font-size: calc(8px + 2vmin); 
+    outline-color: #7c7c7c;
+    
+}
+
+
+.BackModal{
+      background-color: white;
+    border-left: transparent;
+    width: 0; 
+    height: 0; 
+    border-top: 7.5vw solid transparent;
+    border-bottom: 7.5vw solid transparent; 
+    border-right:7.5vw solid #b6b2b3; 
+}
+
+.BackModal:focus { 
+    outline: none;
+    box-shadow: -1px -1px 10px -2px rgba(0, 0, 0, 0.5);
+ }
+
+.NextModal{
+    background-color: white;
+    border-right: transparent;
+    width: 0; 
+    height: 0; 
+    border-top: 7.5vw solid transparent;
+    border-bottom: 7.5vw solid transparent; 
+    border-left:7.5vw solid #b6b2b3; 
+}
+
+.NextModal:focus {     outline: none;
+    box-shadow: -1px -1px 10px -2px rgba(0, 0, 0, 0.5) }
+
+#buy{
+    font-size: calc(5px + 2vmin);
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 1rem
+}
+
+.erro{
+    height: 1px;
+
+}
+
+.alertDanger{
+    border: 1px solid rgb(247, 189, 189);
+    border-radius: 5px;
+    background-color: rgb(248, 215, 215);
+   text-align: center;
+   font-size: calc(3px + 2vmin);
+    padding: 0.12rem 1rem;
+    color: rgb(109, 20, 4);
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+
+
+
+
+@media(min-width: 500px){
+  
+.ModalMapData{
+  display: grid;
+  grid-template-columns: 6% 1.5% 5% 20% 20% 5% 1.5% 8% 25% 7% 1%;
+  grid-template-rows: 5% 15% 5% 5% 15% 10% 10% 5% 5% 10% 7% 3% 5%;
+    }
+
+.NameModal{
+grid-column-start: 8;
+grid-column-end: 11;
+grid-row-start: 2;
+grid-row-end: 4;
+font-size: calc(10px + 2vmin);}
+
+.ImageModal{
+width: 100%;
+grid-column-start: 4;
+grid-column-end: 6;
+grid-row-start: 2;
+grid-row-end: 9;
+margin-left: 0%;
+}
+
+.PriceModal{
+grid-column-start: 10;
+grid-column-end: 11;
+grid-row-start: 3;
+grid-row-end: 4;
+ font-size: calc(5px + 1.2vmin);
+
+}
+
+.DescripModal{
+ font-size: calc(5px + 1.2vmin);
+ grid-column-start: 9;
+grid-column-end: 10;
+grid-row-start: 5;
+grid-row-end: 6;
+
+}
+
+
+.SizeModal{
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 7;
+    grid-row-end: 8;
+
+    font-size: calc(5px + 1.2vmin);
+}
+
+
+.SizeModalbtn{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.25rem;
+}
+
+.SizeModalbtn button {
+    font-size: calc(5px + 1.2vmin);
+}
+
+
+.btndiv{
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 6;
+
+}
+
+.BackModal{
+
+    border-top: calc(15px + 1.2vmin) solid transparent;
+    border-bottom: calc(15px + 1.2vmin) solid transparent; 
+    border-right:calc(15px + 1.2vmin) solid #b6b2b3; 
+}
+
+.NextModal{
+    border-top: calc(15px + 1.2vmin) solid transparent;
+    border-bottom: calc(15px + 1.2vmin) solid transparent; 
+    border-left:calc(15px + 1.2vmin) solid #b6b2b3; 
+}
+
+
+#buy{
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 10;
+    grid-row-end: 11; 
+   margin-left: 0;
+    font-size: calc(5px + 1.2vmin);
+     height: 35px;
+     width: 100%;
+    }
+
+.erro{
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 11;
+    grid-row-end: 12; 
+
+}
+
+.alertDanger{
+    font-size: calc(3px + 1vmin);
+    margin-left: 0;
+    margin-top: 30px;
+    width: 100%;
+}
+}
+
+
+/* Love */
+
+ .loveModalMain{
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 13;
+    grid-row-end: 14; 
+     height: auto;
+     margin-top: 6rem;
+   
+}
+
+.loveModalMain p{
+    text-align: center;
+    font-size: calc(5px + 1.4vmin);
+    text-decoration: underline;
+    color: #969394;
+    font-family: 'EB Garamond', serif;
+}
+
+.loveModal{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.loveModalImg{
+    width: 31%;
+    padding: 0.5rem;
+}
+
+
+.ImageModalLove{
+width: 100%;
+}
+
+.NameModalLove{
+    font-size: 1em;
+    color: #969394;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: calc(5px + 1.2vmin);
+   
+}
+
+.PriceModalLove{
+    font-size: 1em;
+    color: #969394;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+
+ 
+/* View */
+
+.viewsModalMain{
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 14;
+    grid-row-end: 15; 
+     height: auto;
+     margin-top: 6rem;
+   
+}
+
+.viewsModalMain p{
+    text-align: center;
+    font-size: calc(5px + 1.4vmin);
+    text-decoration: underline;
+    color: #969394;
+    font-family: 'EB Garamond', serif;
+}
+
+.viewsModal{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.viewsModalImg{
+    width: 31%;
+    padding: 0.5rem;
+}
+
+
+.ImageModalView{
+width: 100%;
+}
+
+.NameModalView{
+    font-size: 1em;
+    color: #969394;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: calc(5px + 1.2vmin);
+}
+
+.PriceModalView{
+    font-size: 1em;
+    color: #969394;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+
+
+

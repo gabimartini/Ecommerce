@@ -1,0 +1,22 @@
+.RegisterMain{
+text-align: center;
+color: #b6b2b3;
+width: 50%;
+margin:5% 25%
+}
+
+.Register{
+    text-align: center;
+}
+
+.Register a{
+    color: #b6b2b3
+}
+
+.Register a:hover{
+    color: #424141d7;
+}
+
+.AlreadyRegister{
+    color: red
+}

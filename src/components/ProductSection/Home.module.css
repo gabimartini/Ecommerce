@@ -1,0 +1,32 @@
+.type{
+text-align: center;
+}
+
+.imgType{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+.imgType a{
+  width: 33%;
+}
+
+.Image{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 499px) {
+  #Desktop {
+      display: none;
+  }
+}
+
+@media (min-width: 498px) {
+  #Mobile {
+      display: none;
+  }
+}
