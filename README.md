@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project is build with react, redux,mysql, node, express, bootstrap, axios, test with jest
+
 ## Available Scripts
 
 In the project directory, you can run:
