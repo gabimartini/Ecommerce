@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+✓A react ecomerce that implements Flux architecture through Redux; CSS3 and Bootstrap to build the front-end;
+✓ Created the schema and wrote middleware to store and recieve the data from MySQL;
+✓ Worked with Express framework for NodeJS to create the routes required for delivering data to the front end.
+✓ ESlint and Jest to test and debug
+
 This project is build with react, redux,mysql, node, express, bootstrap, axios, test with jest
 
 ## Available Scripts
